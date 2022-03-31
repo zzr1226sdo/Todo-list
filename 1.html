@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer type="module"></script>
+</head>
+<body>
+    <form id="form" action="">
+        Email:<input type="email" id="email">
+        <br>
+        Password:<input type="password" id="password">
+        <br>
+        Nickname:<input type="nickname" id="nickname">
+        <br>
+        <input type="submit" value="註冊" id="submit">
+    </form>
+    <hr>
+    <form id="login_form" action="">
+        Email:<input type="email" id="login_email">
+        <br>
+        Password:<input type="password" id="login_password">
+        <br>
+        <input type="submit" value="登入">
+    </form>
+    <hr />
+    <p>token :</p>
+    <div class="token">
+    </div>
+    <button id="check">檢查登入</button>
+    <span id="status"></span>
+    <hr>
+    <form action="" id="logout_form">
+        <input type="submit" value="登出">
+        <span id="logOutStatus"></span>
+    </form>
+    <hr>
+    <form action="" id="addForm">
+        <input type="text" id="todoContent">
+        <input type="submit" id="">
+    </form>
+    <ul id="todolist"></ul>
+
+</body>
+</html>

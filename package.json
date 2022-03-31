@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "parcel": "^2.4.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
